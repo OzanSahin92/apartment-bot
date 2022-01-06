@@ -1,0 +1,14 @@
+name: apartbot
+
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+
+dependencies:
+  - python==3.7
+  - jupyterlab
+  - numpy
+  - aiosmtplib
+  - python-dotenv
+  - selenium
